@@ -2,7 +2,9 @@
 
 <h2>Description</h2>
 
-- Oracle VirtualBox was used to spin up 2 VMs.  The first is configured to simulate an "employer" created Active Directory where 1000+ "employees" were populated into this AD
+- Oracle VirtualBox was used to spin up 2 VMs.
+  
+- The first is configured to simulate an "employer" created Active Directory where 1000+ "employees" were populated into this AD
 
 - The 2nd VM is used to simulate a newly created user (Bruce Wayne) actually using their credentials to access the the "employer's" server.
 <br />
@@ -39,10 +41,12 @@
 <br />
 <br />
 <br />
+<br />
 <b>"Employer" VM - Server Dashboard <b>  <br/>
 <br />
 - This is the "employer's" server dashboard and shows the various roles I created and showing as active
 <img src="https://imgur.com/R6etKSX.png" height="120%" width="120%" alt="Windows AD within a VM"/>
+<br />
 <br />
 <br />
 <br />
@@ -53,7 +57,8 @@
 <img src="https://imgur.com/rmtu3eq.png" height="100%" width="100%" alt="Windows AD within a VM"/>
 <br />
 <br />
-<br /> 
+<br />
+<br />
 <b>Wazuh Dashboard -<b>
 <b>Sample PCI DSS Rule-Related Event Log<b>  <br/>
 <br />
@@ -63,12 +68,14 @@
 <br />
 <br />
 <br />
+<br />
 <b>"Employer" VM - Active Directory<b>  <br/>
 <br />
   - Here you can see the "employer's" Active Directory which is populated with over 10000 "current employees".  All the "employees" are simulated and do not represent any actual people.  
 <br />
   - I've included a "new-hire" employee that we will refer to as Bruce Wayne, that is being added to the Active Directory.  I decided to promote Bruce to the "administrator" role, as shown further below.  
 <img src="https://imgur.com/NZi5tvw.png" height="100%" width="100%" alt="Windows AD within a VM"/>
+<br />
 <br />
 <br />
 <br />
@@ -83,11 +90,11 @@ Both VM were created with 4GB of Ram, and with approx 200 GB of SSD storage.
 <br />
 <br />
 <br />
-<b>Wazuh Dashboard -<b>
-<b>Integrity Monitoring:<b>  <br/>
 <br />
--While viewing the Events logs under the Integrity Monitoring section, I highlighted where the exact file path, the relevant Rule Description, and Rule ID related to the events listed can be referenced for further investigation
-<img src="https://imgur.com/AEUAQCW.png" height="100%" width="100%" alt="Windows AD within a VM"/>
+<b>"Employee" - User access verfiied<b>  <br/>
+<br />
+-Bruce Wayne has verified his access is now active, and was able to confirm that he has "administrator" access now.
+<img src="https://imgur.com/EbGmTXT.png" height="100%" width="100%" alt="Windows AD within a VM"/>
 </p>
 
 <!--
